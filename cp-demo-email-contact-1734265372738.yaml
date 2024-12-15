@@ -1,0 +1,11 @@
+apiVersion: 1
+contactPoints:
+    - orgId: 1
+      name: demo-email-contact
+      receivers:
+        - uid: ae6z909lnhl35d
+          type: email
+          settings:
+            addresses: aliaksandrvorakh@gmail.com
+            singleEmail: false
+          disableResolveMessage: false
